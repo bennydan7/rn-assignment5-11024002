@@ -29,6 +29,10 @@ const images = {
     light: require("../assets/loan.png"),
     dark: require("../assets/loan-white.png"),
   },
+  topUp: {
+    light: require("../assets/topUp.png"),
+    dark: require("../assets/topUp-white.png"),
+  },
 };
 
 const Heading = () => {
@@ -232,10 +236,10 @@ const HomeScreen = () => {
         }
         barStyle={theme === "light" ? "dark-content" : "light-content"}
       />
-      <Header />
-      <Card />
+      <Heading />
+      <CreditCard />
       <Transactions />
-      <TransactionHistory />
+      <TransactionsHistory />
     </SafeAreaView>
   );
 };
