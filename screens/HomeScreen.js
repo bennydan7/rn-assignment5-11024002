@@ -134,7 +134,7 @@ const Transactions = () => {
   );
 };
 
-const TransactionsHistory = () => {
+const TransactionHistory = () => {
   const { theme } = useContext(ThemeContext);
   const data =
     theme === "light" ? TransactionsHistoryData : TransactionsHistoryDataDark;
@@ -213,7 +213,7 @@ const TransactionsHistory = () => {
   );
 };
 
-const HomeScreen = () => {
+export default function HomeScreen() {
   const { theme } = useContext(ThemeContext);
 
   return (
@@ -239,12 +239,10 @@ const HomeScreen = () => {
       <Heading />
       <CreditCard />
       <Transactions />
-      <TransactionsHistory />
+      <TransactionHistory />
     </SafeAreaView>
   );
-};
-
-export default HomeScreen;
+}
 
 const styles = StyleSheet.create({
   container: {
