@@ -19,7 +19,7 @@ export const TransactionsHistoryData = [
     category: "Entertainment",
     amount: "-$5.99",
     type: "black",
-    logo: require("../assets/apple-white.png"),
+    logo: require("../assets/apple.png"),
   },
   {
     id: 2,
