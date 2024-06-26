@@ -32,7 +32,7 @@ export const TransactionsHistoryData = [
   {
     id: 3,
     title: "Money Transfer",
-    category: "Transaction",
+    category: "Shopping",
     amount: "$300",
     type: "blue",
     logo: require("../assets/moneyTransfer.png"),
@@ -86,7 +86,7 @@ export const TransactionsHistoryDataDark = [
     category: "Entertainment",
     amount: "-$5.99",
     type: "black",
-    logo: require("../assets/apple.png"),
+    logo: require("../assets/apple-white.png"),
   },
   {
     id: 2,
@@ -102,7 +102,7 @@ export const TransactionsHistoryDataDark = [
     category: "Transaction",
     amount: "$300",
     type: "blue",
-    logo: require("../assets/moneyTransfer.png"),
+    logo: require("../assets/recieved-white.png"),
   },
   {
     id: 4,
