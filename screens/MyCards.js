@@ -9,11 +9,7 @@ const MyCards = () => {
   const backgroundColor =
     theme === "light" ? ThemeLight.backgroundColor : ThemeDark.backgroundColor;
 
-  return (
-    <View style={[styles.container, { backgroundColor }]}>
-      <Text>My Cards💳</Text>
-    </View>
-  );
+  return <View style={[styles.container, { backgroundColor }]}></View>;
 };
 
 const styles = {
